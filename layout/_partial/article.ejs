@@ -23,6 +23,11 @@
           <a href="<%= theme.url + url_for(page.path) + '#disqus_thread' %>"></a>
         </span>
       <% } %>
+      <% if (theme.gitment){ %>
+        <span>
+          <a href="#comment"><i class="icon-comment"></i></a>
+        </span>
+      <% } %>
 
       <% if (theme.busuanzi){ %>
       <i class="fa fa-eye"></i> 
